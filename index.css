@@ -1,0 +1,230 @@
+body{
+    overflow: hidden;
+    font-family: 'Monserrat',sans-serif;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.main{
+    display: flex;
+}
+.sidebar{
+    background-color: black;
+    height: 100vh;
+    width: 420px;
+}
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    overflow: auto;
+    border-radius: 1rem;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    height: 72px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    background-color: #121212;
+    height: 200px;
+    margin: 10px;
+    border-radius: 1rem;
+}
+.nav-option{
+    padding: 35px 0px 0px 40px;
+}
+.nav-search{
+    padding: 35px 0px 0px 40px;
+}
+.nav-spotify{
+    padding: 25px 0px 0px 40px;
+}
+.nav a{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.nav i{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.nav .nav-search i{
+    opacity: 0.7;
+}
+.nav .nav-search i:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.nav i,a:hover{
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+.library{
+    background-color: #121212;
+    height: 56px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 1rem 1rem 0 0;
+}
+.library a{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 10px 0px 0px 20px;
+}
+.library-div i{
+    padding: 20px 0px 0px 40px;
+    opacity: 0.7;
+    font-size: 16px;
+}
+.library i:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.your-library{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.icon #plus{
+    padding-left: 140px;
+    opacity: 0.7;
+}
+.icon #arrow{
+    padding-left: 18px;
+    opacity: 0.7;
+}
+.icon #plus:hover{
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+.icon #arrow:hover{
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+.library-div img:hover{
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.library a:hover{
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+.library i{
+    padding-left: 40px;
+}
+#plus{
+    padding-right: 2px;
+    padding-left: 40px;
+}
+.you_list a{
+    font-size: 16px;
+}
+.nav-library-search i{
+    opacity: 0.7;
+    font-size: 20px;
+}
+.nav-library-search i:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.nav-library-search{
+    background-color: #121212;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#re{
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-right: 120px;
+}
+.nav-library-search i{
+    padding: 5px;
+}
+#Recents{
+    padding-left: 100px;
+    font-weight: 500;
+}
+.your-library img{
+    padding-left: 40px;
+    height: 20px;
+    opacity: 0.7;
+}
+.your-library img:hover{
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+.you-list{
+    background-color: #121212;
+}
+.nav-library-search{
+    margin-bottom: 20px;
+}
+.karan-img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.karan{
+    background-color: #121212;
+    width: 100%;
+    height: 62px;
+    display: flex;
+}
+#scroll-bg{
+    height: 175px;
+    width: 100%;
+    background-color: #121212;
+}
+.name{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 550;
+    font-size: 15px;
+    opacity: 0.8;
+}
+/*************************/
+.stiky-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    align-items: center;
+    height: 43px;
+    position: sticky;
+    top: 0;
+
+}
+.update{
+    
+    font-weight: 600;
+}
+.update button{
+    border-radius: 40px;
+    font-size: 16px;
+
+}
+.update i{
+    font-size: 19px;
+}
+.rightleft img{
+    padding-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
