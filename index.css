@@ -131,7 +131,11 @@ a{
 }
 .nav-library-search i{
     opacity: 0.7;
-    font-size: 20px;
+    font-size: 16px;
+}
+.nav-library-search a{
+    opacity: 0.7;
+    font-size: 14px;
 }
 .nav-library-search i:hover{
     opacity: 1;
@@ -140,8 +144,6 @@ a{
 }
 .nav-library-search{
     background-color: #121212;
-    padding-top: 0px;
-    margin-top: 0px;
 }
 #re{
     padding-left: 40px;
@@ -153,7 +155,7 @@ a{
 }
 #Recents{
     padding-left: 100px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .your-library img{
     padding-left: 40px;
@@ -167,12 +169,16 @@ a{
 .you-list{
     background-color: #121212;
 }
+.you-list:hover{
+    overflow: auto;
+    transition: all 2s linear;
+}
 .nav-library-search{
     margin-bottom: 20px;
 }
 .karan-img img{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 50px;
     margin-left: 25px;
 }
@@ -186,6 +192,7 @@ a{
     height: 175px;
     width: 100%;
     background-color: #121212;
+   
 }
 .name{
     padding-left: 10px;
@@ -194,8 +201,15 @@ a{
     font-size: 15px;
     opacity: 0.8;
 }
+.you-list::-webkit-scrollbar {
+    width: 16px;
+}
+.you-list::-webkit-scrollbar-thumb {
+    background-color: #2a2727; 
+    border-radius: 10px;
+}
 /*************************/
-.stiky-nav{
+.stiky-nav-first{
     display: flex;
     justify-content: space-between;
     background-color: #121212;
@@ -227,4 +241,36 @@ a{
     .hide{
         display: none;
     }
+}
+.stiky-nav-second{
+    display: flex;
+}
+.all{
+    height: 30px;
+    width: 40px;
+    margin: 10px 0 0 8px;
+    background-color: rgb(36, 36, 36);;
+    border-radius: 40px;
+    padding: 8px 0 0 18px;
+}
+.music{
+    height: 30px;
+    width: 55px;
+    margin: 10px 0 0 8px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 40px;
+    padding: 8px 0 0 13px;
+}
+.Podcasts{
+    height: 30px;
+    width: 80px;
+    margin: 10px 0 0 8px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 40px;
+    padding: 8px 0 0 15px;
+}
+.se:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s linear;
 }
